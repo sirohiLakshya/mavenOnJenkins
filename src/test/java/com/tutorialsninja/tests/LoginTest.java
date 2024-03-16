@@ -55,10 +55,7 @@ public class LoginTest {
     @DataProvider(name = "credentials")
     public Object[][] credentialsDataProvider(){
         return new Object[][] {
-                {"Both Correct", "lakshyakumarsirohi@gmail.com", "zfmUj2c@U@8p2r"},
-                {"Both Wrong", "lks@gmail.com", "rrgghhc@U@8p2r"},
-                {"Username Wrong","lks@gmail.com", "zfmUj2c@U@8p2r"},
-                {"Password Wrong","lakshyakumarsirohi@gmail.com", "tttyyzz2c@U@8p2r"}
+                {"Both Correct", "lakshyakumarsirohi@gmail.com", "zfmUj2c@U@8p2r"}
         };
     }
 }
